@@ -47,6 +47,13 @@
 	      <logger category="jacorb.config">
 	          <level name="ERROR"/>
 	      </logger>
+<logger category="org.jboss.as.jpa">
+	          <level name="TRACE"/>
+	      </logger>
+<logger category="org.jboss.as.clustering">
+	          <level name="TRACE"/>
+	      </logger>
+
       </replacement>
    </supplement>
    <supplement name="osgi">
